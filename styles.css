@@ -218,7 +218,17 @@
         height: 450px;
         margin-left:-1em;
     }
-    
+     
+    .bottom-box {
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+        padding: 20px;
+        margin-top: -0.5px;
+        position: relative;
+        height: 12em;
+        margin-left:-1em;
+    }
     .text-body {
         min-height: 500px;
         padding: 30px;
