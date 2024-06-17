@@ -280,10 +280,7 @@
     }
     
     .text-body-out {
-        min-height: 200px;
         padding: 30px;
-        width: 900px;
-        margin-left: 400px;
         text-align: center;
     }
     
