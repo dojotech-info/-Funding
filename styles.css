@@ -588,7 +588,7 @@
             width: 100%;
     }
     
-       .blue-box, .white-box, .grey-box {
+       .blue-box, .white-box, .bottom-box, .grey-box {
             flex-direction: column;
             padding: 1em;
         }
