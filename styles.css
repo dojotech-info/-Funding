@@ -94,9 +94,13 @@
     }
     
     .button-and-image {
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
+     display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
     }
     
     .button1 {
@@ -146,38 +150,37 @@
     width: -webkit-fill-available;
     flex-wrap: nowrap;
     flex-direction: row;
+     height: fit-content;
+
 
     }
     
     .info-image {
         width: 45%;
-        height: 113%;
-        object-fit: cover;
-        margin-right: -32px;
-        margin-top: -10.5px;
+    height: 113%;
+    flex-basis: fit-content;
+    margin-top: -33px;
+    margin-right: -33px;
         
     }
     
     .text-box {
-        padding: tem;
-        margin-left: 293.5px;
-        margin-top: 10px;
-        width:86em;
+      margin-left: 12em;
+    width: 86em;
     }
     
     .text-box h1 {
-        font-size: 56px;
-        font-family: 'DM Sans Bold', sans-serif;
-        font-weight: bold;
-        text-align: left;
-        width:11em;
+      font-size: 4em;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    width: auto;
     }
     
     .text-box p {
-        font-size: 22px;
-        margin: 10px 0;
-        width: 25em;
-        text-align: left;
+     font-size: 1.5em;
+    width: auto;
+    text-align: left;
     }
     .text-box p1 {
         font-size: 20px;
