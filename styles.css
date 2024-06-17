@@ -212,26 +212,29 @@
     }
     
     .white-box {
-      display: flex;
-    align-items: flex-start;
+ display: flex;
+    align-items: center;
     background-color: #FFFFFF;
     padding: 20px;
     height: 24em;
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     }
      
     .bottom-box {
-        display: flex;
-        align-items: center;
-        background-color: #FFFFFF;
-        padding: 20px;
-        margin-top: -0.5px;
-        position: relative;
-        height: 12em;
-        margin-left:-1em;
+         display: flex;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-top: -0.5px;
+    position: relative;
+    height: fit-content;
+    margin-left: -1em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     }
     .text-body {
       padding: 30px;
