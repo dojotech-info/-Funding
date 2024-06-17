@@ -216,6 +216,7 @@
         margin-top: -0.5px;
         position: relative;
         height: 450px;
+        margin-left:-1em;
     }
     
     .text-body {
